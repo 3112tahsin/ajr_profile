@@ -1,0 +1,165 @@
+
+<!------------------------- Nine Page Start ------------->
+<section class="nine page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="nine-page pt-5 mt-3">
+        <h6>A.J.R Parcel & Courier Service Ltd. Office Address:</h6>
+      </div>
+      <table class="tb-table">
+        <tr class="title-tt">
+          <th class="sl">SL</th>
+          <th class="division">Division</th>
+          <th class="office-name">Office Name</th>
+          <th class="office-address">Office Address</th>
+          <th class="office-number">Number</th>
+        </tr>
+        {% for office in Office_Address|slice:":30" %}
+        <tr class="td-rr">
+          <td>{{ forloop.counter }}</td>
+          <td>{{ office.Division }}</td>
+          <td>{{ office.Office_Name }}</td>
+          <td>{{ office.Office_Address }}</td>
+          <td>{{ office.Number1 }} <br /> {{ office.Number2 }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </section>
+  
+  <!-------------------- Teen Page Start ----------------->
+  <section class="nine page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="nine-page pt-5 mt-3">
+        <h6>A.J.R Parcel & Courier Service Ltd. Office Address:</h6>
+      </div>
+      <table class="tb-table">
+        <tr class="title-tt">
+          <th class="sl">SL</th>
+          <th class="division">Division</th>
+          <th class="office-name">Office Name</th>
+          <th class="office-address">Office Address</th>
+          <th class="office-number">Number</th>
+        </tr>
+        {% for office in Office_Address|slice:"30:60" %}
+        <tr class="td-rr">
+          <td>{{ office.id }}</td>
+          <td>{{ office.Division }}</td>
+          <td>{{ office.Office_Name }}</td>
+          <td>{{ office.Office_Address }}</td>
+          <td>{{ office.Number1 }} <br /> {{ office.Number2 }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </section>
+  
+    <!------------------- Eleven Page Start ------------------>
+  <section class="nine page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="nine-page pt-5 mt-3">
+        <h6>A.J.R Parcel & Courier Service Ltd. Office Address:</h6>
+      </div>
+      <table class="tb-table">
+        <tr class="title-tt">
+          <th class="sl">SL</th>
+          <th class="division">Division</th>
+          <th class="office-name">Office Name</th>
+          <th class="office-address">Office Address</th>
+          <th class="office-number">Number</th>
+        </tr>
+        {% for office in Office_Address|slice:"60:90" %}
+        <tr class="td-rr">
+          <td>{{ office.id }}</td>
+          <td>{{ office.Division }}</td>
+          <td>{{ office.Office_Name }}</td>
+          <td>{{ office.Office_Address }}</td>
+          <td>{{ office.Number1 }} <br /> {{ office.Number2 }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </section>
+    <!------------------ Twelve Page Start ----------------->
+    <section class="nine page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+      <div class="corporate-afive">
+        <h1>AJR GROUP</h1>
+        <div class="nine-page pt-5 mt-3">
+          <h6>A.J.R Parcel & Courier Service Ltd. Office Address:</h6>
+        </div>
+        <table class="tb-table">
+          <tr class="title-tt">
+            <th class="sl">SL</th>
+            <th class="division">Division</th>
+            <th class="office-name">Office Name</th>
+            <th class="office-address">Office Address</th>
+            <th class="office-number">Number</th>
+          </tr>
+          {% for office in Office_Address|slice:"90:120" %}
+          <tr class="td-rr">
+            <td>{{ office.id }}</td>
+            <td>{{ office.Division }}</td>
+            <td>{{ office.Office_Name }}</td>
+            <td>{{ office.Office_Address }}</td>
+            <td>{{ office.Number1 }} <br /> {{ office.Number2 }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </section>
+    <section class="nine page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+      <div class="corporate-afive">
+        <h1>AJR GROUP</h1>
+        <div class="nine-page pt-5 mt-3">
+          <h6>A.J.R Parcel & Courier Service Ltd. Office Address:</h6>
+        </div>
+        <table class="tb-table">
+          <tr class="title-tt">
+            <th class="sl">SL</th>
+            <th class="division">Division</th>
+            <th class="office-name">Office Name</th>
+            <th class="office-address">Office Address</th>
+            <th class="office-number">Number</th>
+          </tr>
+          {% for office in Office_Address|slice:"120:150" %}
+          <tr class="td-rr">
+            <td>{{ office.id }}</td>
+            <td>{{ office.Division }}</td>
+            <td>{{ office.Office_Name }}</td>
+            <td>{{ office.Office_Address }}</td>
+            <td>{{ office.Number1 }} <br /> {{ office.Number2 }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </section>
+  
+    <section class="nine page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+      <div class="corporate-afive">
+        <h1>AJR GROUP</h1>
+        <div class="nine-page pt-5 mt-3">
+          <h6>A.J.R Parcel & Courier Service Ltd. Office Address:</h6>
+        </div>
+        <table class="tb-table">
+          <tr class="title-tt">
+            <th class="sl">SL</th>
+            <th class="division">Division</th>
+            <th class="office-name">Office Name</th>
+            <th class="office-address">Office Address</th>
+            <th class="office-number">Number</th>
+          </tr>
+          {% for office in Office_Address|slice:"150:180" %}
+          <tr class="td-rr">
+            <td>{{ office.id }}</td>
+            <td>{{ office.Division }}</td>
+            <td>{{ office.Office_Name }}</td>
+            <td>{{ office.Office_Address }}</td>
+            <td>{{ office.Number1 }} <br /> {{ office.Number2 }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </section>
+    

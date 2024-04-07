@@ -1,0 +1,1571 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    color: #615978;
+
+}
+/*-------------------------Meda Print Page Start--------------------------------*/
+@page {
+    size: A4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media print {
+
+    html,
+    body,
+    page[size="A4"] {
+        width: 210mm;
+        height: 297mm;
+        margin-left: -20px;
+        background-image: none !important;
+    }
+
+    section.second.page-bg.mt-5 {
+        height: 1380px !important;
+    }
+    section.third.page-bg.mt-5 {
+        height: 1340px !important;
+    }
+    section.four-page-bg.page-bg.mt-5 {
+        height: 1360px !important;
+    }
+    section.five.page-bg.mt-5 {
+        height: 1360px !important;
+    }
+    section.saven.page-bg.mt-5 {
+        height: 1380px !important;
+    }
+    section.eighten.page-bg.mt-5 {
+        height: 1380px !important;
+    }
+    section.nine.page-bg.mt-5 {
+        height: 1380px !important;
+    }
+    section.nineten.page-bg.mt-5 {
+        height: 1340px !important;
+    }
+    .Eithten-page.pt-3.mt-5 {
+        margin-top: 0px !important;
+    }
+    .page-bg{
+        break-inside: avoid;
+        width: 100%;
+        height: min-content !important;
+    }
+    section{
+        padding-bottom: 20px;
+    }
+
+    .br-dr {
+        width: 643px !important;
+    }
+    tr.td-rr-vehicle td {
+            font-size: 14px;
+            padding: 3px;
+            line-height: 0.9 !important;
+            font-weight: 300;
+        }
+        table.tb-table-vehicle.mt-5 {
+            margin-top: 0px !important;
+        }
+    .fourten-page.pt-5.mt-3 {
+        padding-top: 10px !important;
+        margin-top: 10px !important;
+    }
+    .nine-page.pt-5.mt-3 {
+        padding-top: 10px !important;
+        margin-top: 10px !important;
+    }
+        img.artropi {
+            margin-top: 20px !important;
+            margin-bottom: 8px !important;
+        }
+        .corporate-a img {
+            width: 100%;
+            height: 300px !important;
+        }
+        .company {
+            margin: 8px !important;
+            padding: 12px !important;
+        }
+        .corpo-img.second-image img {
+            padding-left: 0 !important;
+        }
+        .corporate-a img {
+            width: 100%;
+            height: 350px !important;
+        }
+        .corpo-img.second-image img {
+            margin-left: auto !important;
+            position: absolute !important;
+            height: 300px !important;
+        }
+        .corpo-down.d-flex.mt-4 {
+            margin-left: 42% !important;
+            
+        }
+        .Fifth-page {
+            padding-top: 2% !important;
+        }
+        img.vi-page {
+            height: 180px !important;
+            margin-top: 8px !important;
+        }
+        .Fifth-page h6 {
+            padding: 5px !important;
+            font-size: 18px !important;
+        }
+        .Fifth-page p {
+            font-size: 18px !important;
+            padding-top: 5px !important;
+            padding-bottom: 0px !important;
+        }
+        tr.td-rr td {
+            font-size: 14px !important;
+            padding: 2px !important;
+            line-height: 1 !important;
+            font-weight: 300 !important;
+        }
+        section.nine.page-bg {
+            margin-top: 0px !important;
+        }
+        section.thirten.page-bg {
+            margin-top: 0px !important;
+        }
+        .corporate-afive.last-page.mt-5.pt-4 {
+            padding-top: 7px !important;
+            margin-top: 7px !important;
+        }
+        .nineten-info {
+            padding-top: 0px !important;
+        }
+        .nineten-lr.text-center.pt-5 {
+            padding-top: 45px !important;
+        }
+        .nineten-lr.text-center.pt-5 img {
+            height: 300px !important;
+            padding-top: 70px !important;
+        }
+        .nineten-page-office.mt-3 {
+            margin-top: 0px !important;
+        }
+        .nineten-rll {
+            padding-bottom: 0px !important;
+        }
+        .nineten-page-contact.pt-5 {
+            padding-top: 0px !important;
+        }
+        .nineten-info h6 {
+            padding: 5px !important;
+            font-size: 36px !important;
+            font-weight: 500 !important;
+        }
+        .nineten-lrr {
+            padding-bottom: 0px !important;
+        }
+        .nineten-rll {
+            padding-bottom: 0px !important;
+        }
+        .invo-buttons-wrap.d-flex.text-center {
+            visibility: hidden !important;
+        }
+
+        .eight-page.pt-5.mt-3{
+            padding-top: 0 !important;
+        }
+        .eight-page h6 {
+            padding: 18px !important;
+            font-size: 18px !important;
+            margin-top: 0 !important;
+        }
+        .eit-page h6 {
+            padding: 3px !important;
+        }
+        .eighten-lr{
+            margin-top: -250px !important;
+        }
+
+        .seven-lr {
+            margin-left: 40% !important;
+            padding-top: 5px !important;
+            
+        }
+        .seven-lr {
+            margin: 0 !important; 
+            position: relative;
+            margin-top: -708px !important;
+
+        }
+        .seven-lr p {
+            margin-left: 0px !important;
+            text-align: end !important;
+            padding-left: 100px !important;
+            font-size: 16px !important;
+        }
+        .seven-rl p {
+            font-size: 16px !important;
+            line-height: 0.8 !important;
+            padding-top: 0 !important;
+        }
+        .seven-lr h6 {
+            margin-left: 150px !important;
+        }
+        .seven-rl {
+            margin: 0 !important; 
+            position: absolute;
+        }
+        /* .corporate-afive.mt-5.pt-4 {
+            margin-top: 0px !important;
+            padding-top: 2px !important;
+        } */
+        .nineten-page-office.trff.mt-3 {
+            margin-top: -57px !important;
+            margin-left: 76px !important;
+        }
+}
+
+@media print {
+    .page {
+        margin: 0;
+        padding: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
+
+/*-------------------------Meda Print Page End--------------------------------*/
+/*------------------------- Fast Page --------------------------------*/
+.page-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1808px;
+}
+
+img.artropi {
+    margin-top: 130px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 20px;
+}
+/*------------------------- Fast Page --------------------------------*/
+#invoice {
+    /* background: #F1F6F9; */
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin: auto;
+}
+.frist-page img {
+    width: 100%;
+    height: 100%;
+}
+.corporate h4 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "League Spartan", sans-serif;
+}
+.corporate-a img {
+    width: 100%;
+    height: 400px;
+}
+.corporate-a p {
+    background: #00ADEE;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 22px;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.company {
+    border: 1px solid;
+    margin: 20px;
+    padding: 45px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 10px;
+    background: beige;
+}
+.company h6 {
+    font-size: 22px;
+    text-align: justify;
+    padding-bottom: 4px;
+    font-weight: 400;
+    font-family: "League Spartan",
+        sans-serif;
+}
+.txt-cor {
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 600;
+    text-align: end;
+    line-height: 2;
+    font-family: "League Spartan",
+        sans-serif;
+}
+.txt-cor.text-danger {
+    padding-left: 34px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 2;
+    text-align: start;
+    font-family: "League Spartan",
+        sans-serif;
+}
+.corpo-img.second-image img {
+    padding-left: 80px;
+}
+.corporate-a h1 {
+    color: #898787;
+    font-size: 160px;
+    position: absolute;
+    text-transform: uppercase;
+    rotate: -57deg;
+    margin-top: 55%;
+    margin-left: 17%;
+    opacity: 0.4;
+}
+.third-page {
+    padding-top: 50%;
+    padding-bottom: 45%;
+}
+
+.third-page h6 {
+    font-size: 25px;
+    padding-left: 14%;
+    padding-right: 14%;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "League Spartan", sans-serif;
+}
+.dd {
+    text-align: end;
+    padding-right: 14%;
+}
+.dd h4 {
+    font-size: 27px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+.dd span {
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/*-------------------------- Four page start -----------------------------*/
+.four-page.pt-5 {
+    padding-top: 150px !important;
+}
+.details-pp h6 {
+    background: #00adee;
+    width: 300px;
+    height: 60px;
+    font-size: 21px;
+    border-radius: 35px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
+.br-dr {
+    border-top: 5px solid #00adee;
+    width: 827px;
+    margin: auto;
+}
+.derector-test.mgr.mt-3 {
+    margin: auto;
+}
+.derector-test.mgd.mt-3 {
+    margin: auto;
+}
+.derector-test.top-md::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 45px;
+    background-color: #00adee;
+    transform: rotate(0deg) translate(0px, 0px);
+    margin: auto;
+}
+.details-pp.top-mm::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 45px;
+    background-color: #00adee;
+    transform: rotate(0deg) translate(0px, 0px);
+    margin: auto;
+    margin-top: -40px;
+}
+.details-pp.ttt::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 45px;
+    background-color: #00adee;
+    transform: rotate(0deg) translate(0px, 0px);
+    margin: auto;
+}
+
+.four-page h5 {
+    background: #00adee;
+    text-align: center;
+    padding: 20px;
+    width: fit-content;
+    font-size: 20px;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/*-------------------------- Four page End -----------------------------*/
+
+.corporate-afive h1 {
+    color: #898787;
+    font-size: 160px;
+    position: absolute;
+    text-transform: uppercase;
+    rotate: -53deg;
+    margin-top: 55%;
+    margin-left: 17%;
+    opacity: 0.4;
+}
+
+.Fifth-page h6 {
+    background: #00adee;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin: auto;
+    font-family: 'League Spartan', sans-serif;
+}
+img.vi-page {
+    width: 100%;
+    height: 250px;
+    margin-top: 13px;
+}
+
+.Fifth-page {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.Fifth-page p {
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    text-align: justify;
+    font-family: "League Spartan",
+        sans-serif;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+.six-page.mt-5 {
+    padding-top: 50px;
+}
+.six-img img {
+    width: 100%;
+    height: 380px;
+    padding: 40px;
+    padding-left: 80px;
+}
+ul.text-list li {
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    padding-right: 80px;
+}
+.six-txt h5 {
+    font-size: 23px;
+    padding-top: 40px;
+    padding-right: 80px;
+    color: #00adee;
+    font-weight: 700;
+}
+.six-11 p {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: justify;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'League Spartan', sans-serif;
+}
+.six-11 h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 15px;
+    width: fit-content;
+    font-size: 22px;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+tr.tr-border td {
+    border: 1px solid;
+    background: beige;
+    border-radius: 16px;
+}
+table.sixtable {
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 87%;
+    margin-right: 80px;
+}
+tr.tr-border td {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "League Spartan", sans-serif;
+}
+
+.seven-rl {
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.saven-page p {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
+.saven-page h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 15px;
+    width: fit-content;
+    font-size: 22px;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+.seven-rl h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+.seven-lr h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 9px;
+    font-size: 18px;
+    color: #fff;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+.seven-rl p {
+    font-size: 17px;
+    /* padding-left: 60px; */
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'League Spartan', sans-serif;
+}
+.seven-lr {
+    text-align: end;
+    padding-right: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.seven-rl p i {
+    font-size: 5px;
+    padding-right: 15px;
+}
+.seven-lr p {
+    line-height: 0.9;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 17px;
+}
+.seven-ttt h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 15px;
+    width: fit-content;
+    font-size: 22px;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.eight-page h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 15px;
+    width: fit-content;
+    font-size: 22px;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.eit-page h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.nine-page p {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 10px 10px 10px;
+}
+
+.nine-page h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 15px;
+    width: fit-content;
+    font-size: 22px;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+tr.title-tt {
+    background: #00adee;
+    color: #fff;
+}
+
+.tb-table {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 97%;
+}
+tr.td-rr td {
+    font-size: 16px;
+    padding: 6px;
+    line-height: 1;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+}
+tr.title-tt th {
+    padding: 4px;
+    border-right: 2px solid;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+}
+
+th.sl {
+    text-align: start;
+}
+
+th.office-name {
+    text-align: start;
+}
+
+th.office-number {
+    text-align: center;
+}
+
+th.office-address {
+    text-align: center;
+}
+
+
+.fourten-page p {
+    background: #00adee;
+    text-align: center;
+    padding: 15px;
+    width: fit-content;
+    font-size: 22px;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+.fourten-page p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
+.fourten-page h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 6px;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+table.tb-table-vehicle {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    width: 96%;
+}
+
+tr.title-tt-vehicle th {
+    padding: 4px;
+    border-right: 2px solid;
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+}
+tr.title-tt-vehicle {
+    background: #00adee;
+    color: #fff;
+    text-align: center;
+}
+tr.td-rr-vehicle td {
+    font-size: 17px;
+    padding: 5px;
+    line-height: 1;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.eighten-rl {
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.eighten-lr {
+    padding-right: 80px;
+    padding-top: 50px;
+}
+.Eithten-page h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    color: #fff;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 80px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.eighten-rl h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    width: 155px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+.eighten-lr h6 {
+    background: #00adee;
+        text-align: center;
+        padding: 8px;
+        font-size: 18px;
+        color: #fff;
+        width: 200px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-family: 'League Spartan', sans-serif;
+}
+.domestic.d-flex {
+    padding-left: 30px;
+}
+.domestic-01 p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'League Spartan', sans-serif;
+}
+.domestic-02 p {
+    font-size: 17px;
+    padding-left: 60px;
+    font-weight: 500;
+    line-height: 0.8;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.international-01 p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'League Spartan', sans-serif;
+}
+.international-02 p {
+    font-size: 17px;
+    padding-left: 60px;
+    font-weight: 500;
+    padding-right: 12px;
+    line-height: 0.8;
+    font-family: 'League Spartan', sans-serif;
+}
+.eighten-img img {
+    width: 100%;
+    padding: 30px 80px 30px 80px;
+    height: 400px;
+}
+.eighten-rl.ddr h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+.eighten-rl.ddd h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    width: 220px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.nineten-page.pt-3 h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    width: 220px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    margin-left: 80px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.nineten-rl p {
+    font-size: 17px;
+    padding-left: 115px;
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'League Spartan', sans-serif;
+}
+.nineten-rl p i {
+    font-size: 5px;
+    padding-right: 15px;
+}
+.nineten-lr p {
+    font-size: 17px;
+    padding-left: 115px;
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'League Spartan', sans-serif;
+}
+.nineten-lr p i {
+    font-size: 5px;
+    padding-right: 15px;
+}
+
+.nineten-info {
+    text-align: center;
+    padding-top: 20px;
+}
+.nineten-info p {
+    font-size: 22px;
+    font-family: "League Spartan",
+        sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nineten-info h5 {
+    font-family: "League Spartan",
+        sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nineten-info h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 7px;
+    font-size: 40px;
+    color: #fff;
+    width: fit-content;
+    border-radius: 5px;
+    margin: auto;
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+}
+.nineten-page-contact h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+    color: #fff;
+    width: 175px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    margin-left: 80px;
+    font-family: 'League Spartan', sans-serif;
+}
+.nineten-page-office h6 {
+    background: #00adee;
+    text-align: center;
+    padding: 6px;
+    font-size: 20px;
+    color: #fff;
+    width: 160px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+    margin-left: 30px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.nineten-lr img {
+    height: 445px;
+}
+.nineten-page-office.head {
+    padding-left: 80px;
+}
+
+.nineten-rll h5 {
+    padding-left: 30px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+}
+.nineten-lrr h5 {
+    padding-left: 30px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+}
+.nineten-rll p {
+    padding-left: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    font-family: 'League Spartan', sans-serif;
+}
+.nineten-lrr p {
+    padding-left: 30px;
+    font-size: 19px;
+    font-weight:500;
+    padding-bottom: 30px;
+    font-family: 'League Spartan', sans-serif;
+}
+.nineten-rll {
+    padding-left: 80px;
+}
+.nineten-lrr {
+    padding-right: 80px;
+}
+
+/*-------------------- Download Area -------------------------*/
+.invo-buttons-wrap.d-flex.text-center {
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button#convertButton {
+    background: #00adee;
+    border: 2px solid;
+    width: 100px;
+}
+
+button.btn.btn-success {
+    background: #00adee;
+    margin-left: 16px;
+    border: 2px solid;
+    width: 100px;
+}
+
+
+@media (min-width: 300px) and (max-width: 575.98px) {
+    div#invoice {
+    width: min-content;
+}
+.corporate-a img {
+    width: 100%;
+    height: 300px;
+}
+.corpo-img.second-image img {
+    width: 300px;
+    height: 250px;
+    margin-left: 30%;
+}
+.corpo-down.d-flex.mt-4 {
+    margin-left: 28%;
+}
+.corporate-afive h1 {
+    font-size: 140px;
+    margin-top: 55%;
+    margin-left: 9%;
+}
+.corporate-a h1 {
+    font-size: 143px;
+    margin-top: 55%;
+    margin-left: 2%;
+}
+.br-dr {
+    border-top: 5px solid #00adee;
+    width: 607px;
+    margin: auto;
+}
+img.vi-page {
+    width: 100%;
+    height: 250px;
+    margin-top: 13px;
+}
+.six-img img {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    margin-top: -70px;
+}
+.six-txt {
+    text-align: center;
+    padding: 10px;
+}
+ul.text-list {
+    padding-left: 80px;
+}
+table.sixtable {
+    height: 100%;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 0 !important;
+}
+.six-11 p {
+    padding-bottom: 0px !important;
+}
+.saven-page p {
+    padding-top: 0px;
+}
+section.saven.page-bg.mt-5 {
+    width: auto;
+    height: auto;
+}
+.seven-rl {
+    margin: auto !important;
+}
+.seven-lr p {
+    margin-left: 149px;
+    text-align: start;
+}
+.seven-lr {
+    margin: auto !important;
+    margin-left: 177px !important;
+}
+section.six.page-bg.mt-5 {
+    height: auto;
+}
+section.saven.page-bg.mt-5 {
+    height: auto;
+}
+section.eight.page-bg.mt-5 {
+    height: auto;
+}
+.seven-rl {
+    width: 50%;
+    margin-left: -60px;
+}
+.seven-lr.slr {
+    width: 65%;
+    margin-left: 40%;
+    margin-top: -316px;
+    display: block;
+}
+.seven-lr.slrs {
+    width: 65%;
+    margin-left: 40%;
+    margin-top: -573px;
+}
+.seven-lr.selr {
+    margin-top: -229px;
+    width: 65%;
+    margin-left: 40%;
+}
+
+tr.td-rr td {
+    width: 20px;
+    padding: 3px !important;
+}
+.Eithten-page h6 {
+    margin: auto !important;
+}
+.eighten-rl {
+    padding-top: 0 !important;
+    margin-left: -55px !important;
+    width: 50%;
+}
+.eighten-lr {
+    padding-top: 0 !important;
+        width: fit-content;
+        margin-left: 50%;
+        margin-top: -243px;
+}
+.nineten-page.pt-3 h6 {
+    margin-left: 24px;
+}
+.nineten-rl {
+    width: 60%;
+    margin-left: -90px;
+}
+.nineten-lr {
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -430px;
+}
+.nineten-page.rcrc.pt-3 h6 {
+        margin-left: 52%;
+        margin-top: -463px;
+}
+.nineten-lr img {
+    height: 360px !important;
+}
+.nineten-page-office.trff.mt-3 {
+    margin-top: -57px !important;
+    margin-left: 76px !important;
+}
+.nineten-lrr {
+    padding-right: 80px;
+    padding-left: 75px;
+}
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    div#invoice {
+        width: min-content;
+        margin-left: -116px !important;
+    }
+
+    .corporate-a img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .corpo-img.second-image img {
+        width: 300px;
+        height: 250px;
+        margin-left: 30%;
+    }
+
+    .corpo-down.d-flex.mt-4 {
+        margin-left: 28%;
+    }
+
+        .corporate-afive h1 {
+            font-size: 140px;
+            margin-top: 55%;
+            margin-left: 9%;
+        }
+    .corporate-a h1 {
+        font-size: 143px;
+        margin-top: 55%;
+        margin-left: 2%;
+    }
+
+    .br-dr {
+        border-top: 5px solid #00adee;
+        width: 607px;
+        margin: auto;
+    }
+
+    img.vi-page {
+        width: 100%;
+        height: 250px;
+        margin-top: 13px;
+    }
+
+    .six-img img {
+        width: 100%;
+        height: 300px;
+        padding: 20px;
+        margin-top: -70px;
+    }
+
+    .six-txt {
+        text-align: center;
+        padding: 10px;
+    }
+
+    ul.text-list {
+        padding-left: 80px;
+    }
+
+    table.sixtable {
+        height: 100%;
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        position: relative;
+        margin-top: 7px;
+        margin-bottom: 0 !important;
+    }
+
+    .six-11 p {
+        padding-bottom: 0px !important;
+    }
+
+    .saven-page p {
+        padding-top: 0px;
+    }
+
+    section.saven.page-bg.mt-5 {
+        width: auto;
+        height: auto;
+    }
+
+.seven-rl {
+    margin: auto !important;
+}
+
+.seven-lr p {
+    margin-left: 149px;
+    text-align: start;
+}
+
+.seven-lr {
+    margin: auto !important;
+    margin-left: 177px !important;
+}
+
+section.six.page-bg.mt-5 {
+    height: auto;
+}
+
+section.saven.page-bg.mt-5 {
+    height: auto;
+}
+
+section.eight.page-bg.mt-5 {
+    height: auto;
+}
+    .seven-rl {
+        width: 50%;
+        margin-left: -60px;
+    }
+
+    .seven-lr.slr {
+        width: 65%;
+        margin-left: 40%;
+        margin-top: -316px;
+        display: block;
+    }
+
+    .seven-lr.slrs {
+        width: 65%;
+        margin-left: 40%;
+        margin-top: -573px;
+    }
+
+    .seven-lr.selr {
+        margin-top: -229px;
+        width: 65%;
+        margin-left: 40%;
+    }
+
+    tr.td-rr td {
+        width: 20px;
+        padding: 3px !important;
+    }
+
+    .Eithten-page h6 {
+        margin: auto !important;
+    }
+
+    .eighten-rl {
+        padding-top: 0 !important;
+        margin-left: -55px !important;
+        width: 50%;
+    }
+
+    .eighten-lr {
+        padding-top: 0 !important;
+        width: fit-content;
+        margin-left: 50%;
+        margin-top: -243px;
+    }
+
+    .nineten-page.pt-3 h6 {
+        margin-left: 24px;
+    }
+
+    .nineten-rl {
+        width: 60%;
+        margin-left: -90px;
+    }
+
+    .nineten-lr {
+        width: 60%;
+        margin-left: 40%;
+        margin-top: -430px;
+    }
+
+    .nineten-page.rcrc.pt-3 h6 {
+        margin-left: 52%;
+        margin-top: -463px;
+    }
+
+    .nineten-lr img {
+        height: 360px !important;
+    }
+
+    .nineten-page-office.trff.mt-3 {
+        margin-top: -57px !important;
+        margin-left: 76px !important;
+    }
+
+    .nineten-lrr {
+        padding-right: 80px;
+        padding-left: 75px;
+    }
+}
+
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    div#invoice {
+        width: min-content;
+        margin-left: -116px !important;
+    }
+         .corporate-afive h1 {
+             font-size: 138px;
+             margin-left: 10%;
+         }
+    .corporate-a img {
+        width: 100%;
+        height: 300px;
+    }
+    .corpo-img.second-image img {
+        width: 300px;
+        height: 250px;
+    }
+    .corporate-a h1 {
+        margin-top: 60%;
+        margin-left: 10%;
+    }
+    .br-dr {
+        width: 607px;
+    }
+    img.vi-page {
+        width: 100%;
+        height: 250px;
+        margin-top: 13px;
+    }
+    .six-img img {
+        width: 100%;
+        height: 416px;
+        padding: 20px;
+        margin-top: -70px;
+    }
+    .six-txt h5 {
+        margin-top: -96px;
+        font-size: 20px;
+    }
+    ul.text-list {
+        padding-left: 80px;
+    }
+    table.sixtable {
+        height: 100%;
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        position: relative;
+        margin-top: 7px;
+        margin-bottom: 0 !important;
+    }
+    .six-11 p {
+        padding-bottom: 0px !important;
+    }
+    .saven-page p {
+        padding-top: 0px;
+    }
+    section.saven.page-bg.mt-5 {
+        width: auto;
+        height: auto;
+    }
+    section.six.page-bg.mt-5 {
+        height: auto;
+    }
+
+    section.saven.page-bg.mt-5 {
+        height: auto;
+    }
+
+    section.eight.page-bg.mt-5 {
+        height: auto;
+    }
+
+    tr.td-rr td {
+        width: 20px;
+        padding: 3px !important;
+    }
+
+    .Eithten-page h6 {
+        margin: auto !important;
+    }
+    .nineten-lr img {
+        height: 360px !important;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    .corporate-afive h1 {
+            font-size: 138px;
+            margin-left: 10%;
+        }
+    .corporate-a img {
+        width: 100%;
+        height: 300px;
+    }
+    .corpo-img.second-image img {
+        width: 300px;
+        height: 250px;
+    }
+    .corporate-a h1 {
+        margin-top: 60%;
+        margin-left: 10%;
+    }
+    .br-dr {
+        width: 607px;
+    }
+    img.vi-page {
+        width: 100%;
+        height: 250px;
+        margin-top: 13px;
+    }
+    .six-img img {
+        width: 100%;
+        height: 416px;
+        padding: 20px;
+        margin-top: -70px;
+    }
+    .six-txt h5 {
+        margin-top: -96px;
+        font-size: 20px;
+    }
+    ul.text-list {
+        padding-left: 80px;
+    }
+    table.sixtable {
+        height: 100%;
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        position: relative;
+        margin-top: 7px;
+        margin-bottom: 0 !important;
+    }
+    .six-11 p {
+        padding-bottom: 0px !important;
+    }
+    .saven-page p {
+        padding-top: 0px;
+    }
+    section.saven.page-bg.mt-5 {
+        width: auto;
+        height: auto;
+    }
+    section.six.page-bg.mt-5 {
+        height: auto;
+    }
+
+    section.saven.page-bg.mt-5 {
+        height: auto;
+    }
+
+    section.eight.page-bg.mt-5 {
+        height: auto;
+    }
+
+    tr.td-rr td {
+        width: 20px;
+        padding: 3px !important;
+    }
+
+    .Eithten-page h6 {
+        margin: auto !important;
+    }
+    .nineten-lr img {
+        height: 360px !important;
+    }
+}

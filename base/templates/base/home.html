@@ -1,0 +1,913 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block title %} Ajr-Profile | Home {% endblock title %}
+
+{% block content %}
+
+ <!------------------- Second Page Start ------------->
+ {% for Secound_Page in Secound_Page %}
+ <section class="second page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-a second-pp">
+      <img class="artropi" src="{{ Secound_Page.overview_image.url }}" alt="" />
+      <p>Company Overview</p>
+      <div class="company">
+        <h6>
+          {{ Secound_Page.overview_details }}
+        </h6>
+        <h6>
+          {{ Secound_Page.overview_details2 }}
+        </h6>
+        <h6>
+          {{ Secound_Page.company_overview_details3 }}
+        </h6>
+      </div>
+      <div class="row mt-5 mb-5">
+        <div class="col-md-6">
+          <div class="corpo-img second-image">
+            <img src="{{ Secound_Page.overview_site_image.url }}" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="corpo-down d-flex mt-4">
+            <div class="txt-cor">
+              <span>Professionalism</span><br />
+              <span>Intigrity</span><br />
+              <span>Passion</span><br />
+              <span>Service</span><br />
+              <span>Innovation</span>
+            </div>
+            <div class="txt-cor text-danger">
+              <span>Quality And Skill</span><br />
+              <span>Absolute and Commitment</span><br />
+              <span>Drive to Deliver</span><br />
+              <span>Exceed Expectation</span><br />
+              <span>Improving Ways</span><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+{% endfor %}
+  <!--------------------- Third Page Start ------------->
+  {% for Secound_Page in Secound_Page %}
+  <section class="third page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-a">
+      <h1>AJR GROUP</h1>
+      <div class="third-page">
+        <h6>
+          {{ Secound_Page.md_message }}
+        </h6>
+        <div class="dd">
+          <h4>{{ Secound_Page.md_name }}</h4>
+          <span>Managing Director</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+  <!-------------------- Fourth Page Start ------------->
+  {% for Fourth_Page in Fourth_Page %}
+  <section class="four-page-bg page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-a">
+      <h1>AJR GROUP</h1>
+      <div class="four-page pt-5">
+        <h5>Organogram of ajr Parcel & Courier service Limited</h5>
+      </div>
+
+      <div class="flowchart pt-5">
+        <div class="derector-test top-md mt-5">
+          <div class="details-pp">
+            <h6>{{ Fourth_Page.md|capfirst }}</h6>
+          </div>
+        </div>
+        <!-- <div class="long-arrow-right"></div> -->
+        <div class="derector-test top-md">
+          <div class="details-pp">
+            <h6>{{ Fourth_Page.director|capfirst }}</h6>
+          </div>
+        </div>
+
+        <div class="br-dr mb-4"></div>
+
+        <div class="mgr-tt d-flex">
+          <!----------------------- Team 001 Start ------------------->
+          <div class="derector-test mgr mt-3">
+            <div class="details-pp top-mm">
+              <h6>{{ Fourth_Page.senior_general_manager|capfirst }}</h6>
+            </div>
+            <div class="team-001">
+              <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.DGM|capfirst }}</h6>
+            </div>
+            </div>
+            <div class="team-001">
+              <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.AGM|capfirst }}</h6>
+            </div>
+            </div>
+            <div class="team-001">
+              <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.Sr_Manager|capfirst }}</h6>
+            </div>
+            </div>
+            <div class="team-001">
+              <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.Manager|capfirst }}</h6>
+            </div>
+            </div>
+            <div class="team-001">
+              <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.Assistant_Manager|capfirst }}</h6>
+            </div>
+            </div>
+            <div class="team-001">
+              <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.Branch_Manager|capfirst }}</h6>
+            </div>
+            </div>
+          </div>
+
+      <!----------------------- Team 002 Start ------------------->
+          <div class="derector-test mgd mt-3">
+            <div class="details-pp top-mm">
+              <h6>{{ Fourth_Page.Labor_Advisor|capfirst }}</h6>
+            </div>
+            <div class="team-002">
+               <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.Tax_Advisor|capfirst }}</h6>
+            </div>
+            </div>
+            <div class="team-002">
+               <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.Vat_Advisor|capfirst }}</h6>
+            </div>
+            </div>
+            <div class="team-002">
+               <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.Legal_Advisor|capfirst }}</h6>
+            </div>
+            </div>
+          </div>
+
+          <!----------------------- Team 003 Start ------------------->
+          <div class="derector-test mgd mt-3">
+            <div class="details-pp top-mm">
+              <h6>{{ Fourth_Page.General_Manager|capfirst }}</h6>
+            </div>
+
+            <div class="team-003">
+              <div class="details-pp ttt">
+              <h6>{{ Fourth_Page.Manager_site|capfirst }}</h6>
+            </div
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </section>
+  {% endfor %}
+  <!---------------- Five Page Start ------------------>
+  {% for Five_Page in Five_Page %}
+  <section class="five page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="Fifth-page">
+        <h6>Our Vision</h6>
+        <img
+          class="vi-page"
+          src="{{ Five_Page.vision_image.url }}"
+          alt=""
+        />
+        <p>
+          {{ Five_Page.Our_Vision }}
+        </p>
+        <h6>Our MIssion</h6>
+        <img
+          class="vi-page"
+          src="{{ Five_Page.mission_image.url }}"
+          alt=""
+        />
+        <p>
+          {{ Five_Page.Our_mission }}
+        </p>
+        <h6>Our Team</h6>
+        <img
+          class="vi-page"
+          src="{{ Five_Page.team_image.url }}"
+          alt=""
+        />
+        <p>
+          {{ Five_Page.Our_team }}
+        </p>
+        <h6>Our Professionalism</h6>
+        <img
+          class="vi-page"
+          src="{{ Five_Page.team_image.url }}"
+          alt=""
+        />
+        <p>
+          {{ Five_Page.Our_team }}
+        </p>
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+  <!--------------- Six Page Start -------------------->
+  {% for Five_Page in Five_Page %}
+  <section class="six page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="six-page mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="six-img">
+              <img src="{{ Five_Page.six_page_image.url }}" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="six-txt">
+              <h5>
+                {{ Five_Page.six_page_title }}
+              </h5>
+            </div>
+            <ul class="text-list">
+              <li>Door to Door Courier/Parcel Service</li>
+              <li>Same Day Delivery services within Dhaka</li>
+              <li>All types of parcel booking</li>
+              <li>Overnight Parcel delivery services</li>
+              <li>All Business product condition booking</li>
+              <li>
+                All vehicle have tracking devices linked to our
+                dispatch ce
+              </li>
+              <li>Pick up services</li>
+              <li>Specification of our services</li>
+            </ul>
+          </div>
+          <div class="six-11">
+            <p>
+              {{ Five_Page.six_page_details }}
+            </p>
+            <h6>
+              AJR Parcel & Courier Service Ltd. Districtwide Delivery
+              Point in Bangladesh:
+            </h6>
+          </div>
+
+          <div class="six-table">
+            <table class="sixtable">
+              <tbody>
+                {% for Six_Page in Six_Page %}
+                <tr class="tr-border">
+                  <td>{{ forloop.counter }}</td>
+                  <td>{{ Six_Page.Delivery_Point_Name }}:</td>
+                  <td>
+                    {{ Six_Page.Point_details }}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+  <!-------------------- Seven Page Start ---------------->
+  <section class="saven page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="saven-page mt-5">
+        <p>
+          We provide parcel service caring with byers, some of buyers
+          name &address are given bellow,
+        </p>
+        <h6>
+          A.J.R Parcel & Courier Service Ltd. agreement wise mobile
+          caring provider information list:
+        </h6>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="seven-rl">
+            <h6>Mobile Buyers Name:</h6>
+            {% for Mobile_Buyers in Mobile_Buyers %}
+            <p>
+              <i class="fas fa-circle"></i>{{ Mobile_Buyers.Mobile_Buyers_Name }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-lr">
+            <h6>Buyers Address:</h6>
+            {% for Mobile_Buyers in Mobile_Buyers %}
+            <p>
+              {{ Mobile_Buyers.Mobile_Buyers_address }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="seven-ttt">
+            <h6>
+              A.J.R Parcel & Courier Service Ltd. agreement wise
+              mobile caring provider information list:
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-rl">
+            <h6>Medicine Buyers Name:</h6>
+            {% for Medicine_Buyers in Medicine_Buyers %}
+            <p>
+              <i class="fas fa-circle"></i>{{ Medicine_Buyers.Medicine_Buyers_Name }}
+            </p>
+            {% endfor %}
+            
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-lr">
+            <h6>Buyers Address:</h6>
+            {% for Medicine_Buyers in Medicine_Buyers %}
+            <p>
+              {{ Medicine_Buyers.Medicine_Buyers_address }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="eit-page">
+            <h6>Group Of Companies</h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-rl">
+            {% for Group_Companies in Group_Companies %}
+            <p>
+              <i class="fas fa-circle"></i>{{ Group_Companies.Companies_Name }}
+            </p>
+            {% endfor %}
+           
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-lr">
+            {% for Group_Companies in Group_Companies %}
+            <p>
+              {{ Group_Companies.Companies_address }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------- Eight Page Start ----------------->
+  <section class="eight page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="eight-page pt-5 mt-3">
+        <h6>
+          A.J.R Parcel & Courier Service Ltd. agreement wise mobile
+          caring provider information list:
+        </h6>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="eit-page">
+            <h6>Shoes Companies</h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-rl">
+            {% for Shoes_Companies in Shoes_Companies %}
+            <p>
+              <i class="fas fa-circle"></i>{{ Shoes_Companies.Companies_Name }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-lr">
+            {% for Shoes_Companies in Shoes_Companies %}
+            <p>
+              {{ Shoes_Companies.Companies_address }}
+            </p>
+            {% endfor %}
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="eit-page">
+            <h6>Computer & Accessories</h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-rl">
+            {% for Computer_Accessories in Computer_Accessories %}
+            <p>
+              <i class="fas fa-circle"></i>{{ Computer_Accessories.Companies_Name }}
+            </p>
+            {% endfor %}
+            
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-lr">
+            {% for Computer_Accessories in Computer_Accessories %}
+            <p>
+              {{ Computer_Accessories.Companies_address }}
+            </p>
+            {% endfor %}
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="eit-page">
+            <h6>Cosmetic Companies</h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-rl">
+            {% for Cosmetic_Companies in Cosmetic_Companies %}
+            <p>
+              <i class="fas fa-circle"></i>{{ Cosmetic_Companies.Companies_Name}}
+            </p>
+            {% endfor %}
+            
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-lr">
+            {% for Cosmetic_Companies in Cosmetic_Companies %}
+            <p>
+              {{ Cosmetic_Companies.Companies_address }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="eit-page">
+            <h6>General Parcel Companies</h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-rl">
+            {% for Parcel_Companies in Parcel_Companies %}
+            <p>
+              <i class="fas fa-circle"></i>{{ Parcel_Companies.Companies_Name }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="seven-lr">
+            {% for Parcel_Companies in Parcel_Companies %}
+            <p>
+              {{ Parcel_Companies.Companies_address }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ 
+ <!------------------------- Nine Page Start ------------->
+  {% for section in sections_data %}
+  <section class="nine page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+      <div class="corporate-afive">
+          <h1>AJR GROUP</h1>
+          <div class="nine-page pt-5 mt-3">
+              <h6>A.J.R Parcel & Courier Service Ltd. Office Address:</h6>
+          </div>
+          <table class="tb-table">
+              <tr class="title-tt">
+                  <th class="sl">SL</th>
+                  <th class="division">Division</th>
+                  <th class="office-name">Office Name</th>
+                  <th class="office-address">Office Address</th>
+                  <th class="office-number">Number</th>
+              </tr>
+              {% for office in section %}
+              <tr class="td-rr">
+                  <td>{{ office.id }}</td>
+                  <td>{{ office.Division }}</td>
+                  <td>{{ office.Office_Name }}</td>
+                  <td>{{ office.Office_Address }}</td>
+                  <td>{{ office.Number1 }} <br /> {{ office.Number2 }}</td>
+              </tr>
+              {% endfor %}
+          </table>
+      </div>
+  </section>
+  {% endfor %}
+
+
+
+
+  <!------------------ Thirteen Page Start ----------------->
+  {% for section in sections_datav %}
+  <section class="fourten page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+      <div class="corporate-afive">
+          <h1>AJR GROUP</h1>
+          <div class="fourten-page pt-5 mt-3">
+              <p>A.J.R Parcel & Courier Service Ltd. Vehicle Number & Details</p>
+              <h6>7000 KG Vehicle</h6>
+          </div>
+
+          <table class="tb-table-vehicle mt-5">
+              <tr class="title-tt-vehicle">
+                  <th class="">SL.</th>
+                  <th class="">Vehicle Number</th>
+                  <th class="">Brand Name</th>
+                  <th class="">Laden Weight</th>
+                  <th class="">Type of Body</th>
+              </tr>
+              {% for vehicle in section %}
+                  <tr class="td-rr-vehicle">
+                      <td>{{ vehicle.id }}</td>
+                      <td>{{ vehicle.Vehicle_Number }}</td>
+                      <td>{{ vehicle.Brand_Name }}</td>
+                      <td>{{ vehicle.Laden_Weight }}</td>
+                      <td>{{ vehicle.Type_Body }}</td>
+                  </tr>
+              {% endfor %}
+          </table>
+      </div>
+  </section>
+{% endfor %}
+
+  
+  <!------------------ Fiften Page Start ----------------->
+  {% for section in sections_datac %}
+        <section class="fiften page-bg pt-5 mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+            <div class="corporate-afive">
+                <h1>AJR GROUP</h1>
+                <div class="fourten-page pt-3">
+                    <h6>3000 KG Vehicle</h6>
+                </div>
+                <table class="tb-table-vehicle">
+                    <tr class="title-tt-vehicle">
+                        <th class="">SL.</th>
+                        <th class="">Vehicle Number</th>
+                        <th class="">Brand Name</th>
+                        <th class="">Laden Weight</th>
+                        <th class="">Type of Body</th>
+                    </tr>
+                    {% for vehicle in section %}
+                        <tr class="td-rr-vehicle">
+                            <td>{{ vehicle.id }}</td>
+                            <td>{{ vehicle.Vehicle_Number }}</td>
+                            <td>{{ vehicle.Brand_Name }}</td>
+                            <td>{{ vehicle.Laden_Weight }}</td>
+                            <td>{{ vehicle.Type_Body }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </section>
+    {% endfor %}
+  <!------------------ sixten Page Start ----------------->
+  {% for section in sections_datal %}
+  <section class="sixten page-bg mt-5 pt-5" style="background-image: url('/static/assets/images/test.jpg')">
+      <div class="corporate-afive">
+          <h1>AJR GROUP</h1>
+          <div class="fourten-page pt-3">
+              <h6>1500 KG Vehicle</h6>
+          </div>
+          <table class="tb-table-vehicle">
+              <tr class="title-tt-vehicle">
+                  <th class="">SL.</th>
+                  <th class="">Vehicle Number</th>
+                  <th class="">Brand Name</th>
+                  <th class="">Laden Weight</th>
+                  <th class="">Type of Body</th>
+              </tr>
+              {% for vehicle in section %}
+                  <tr class="td-rr-vehicle">
+                      <td>{{ vehicle.id }}</td>
+                      <td>{{ vehicle.Vehicle_Number }}</td>
+                      <td>{{ vehicle.Brand_Name }}</td>
+                      <td>{{ vehicle.Laden_Weight }}</td>
+                      <td>{{ vehicle.Type_Body }}</td>
+                  </tr>
+              {% endfor %}
+          </table>
+      </div>
+  </section>
+{% endfor %}
+  <!------------------ Seventen Page Start ----------------->
+  <section class="seventen page-bg mt-5 pt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="fourten-page pt-3">
+        <h6>1000 KG Vehiele</h6>
+      </div>
+      <table class="tb-table-vehicle">
+        <tr class="title-tt-vehicle">
+          <th class="">SL.</th>
+          <th class="">Vehicle Number</th>
+          <th class="">Brand Name</th>
+          <th class="">Laden Weight</th>
+          <th class="">Type of Body</th>
+        </tr>
+        {% for Kg1000_Vehiele in Kg1000_Vehiele %}
+        <tr class="td-rr-vehicle">
+          <td>{{ forloop.counter }}</td>
+          <td>{{ Kg1000_Vehiele.Vehicle_Number }}</td>
+          <td>{{ Kg1000_Vehiele.Brand_Name }}</td>
+          <td>{{ Kg1000_Vehiele.Laden_Weight }}</td>
+          <td>{{ Kg1000_Vehiele.Type_Body }}</td>
+        </tr>
+        {% endfor %}
+        
+      </table>
+    </div>
+  </section>
+  <!------------------ Eighten Page Start ----------------->
+  <section class="eighten page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <div class="corporate-afive">
+      <h1>AJR GROUP</h1>
+      <div class="Eithten-page pt-3 mt-5"> 
+        <h6>Specification Of Our Services</h6>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="eighten-rl">
+            <h6>Domestic Letters:</h6>
+            <div class="domestic d-flex">
+              <div class="domestic-01">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.Domestic_Letters_name }}:</p>
+                {% endfor %}
+              </div>
+              <div class="domestic-02">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.Domestic_Letters_values }}</p>
+                {% endfor %}
+              </div>
+            </div>
+            <!-- <p><span>Type:</span>Person to Person</p>
+                      <p><span>Territory:</span>With in Bangladesh</p>
+                      <p><span>Charges:</span>According to the traff table attached to this profile</p>
+                      <p><span>Weight:</span>Up to 200 Grams per letter</p>
+                      <p><span>Condition:</span>Letter must be closed</p> -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="eighten-lr">
+            <h6>International Letters:</h6>
+            <div class="international d-flex">
+              <div class="international-01">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.International_Letters_name }}:</p>
+                {% endfor %}
+              </div>
+              <div class="international-02">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.International_Letters_values }}</p>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          {% for Head_Office in Head_Office %}
+          <div class="eighten-img">
+            <img src="{{ Head_Office.Specification_image.url }}" alt="" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="eighten-rl ddr">
+            <h6>Domestic Documents:</h6>
+            <div class="domestic d-flex">
+              <div class="domestic-01">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.Domestic_Documents_name }}:</p>
+                {% endfor %}
+              </div>
+              <div class="domestic-02">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.Domestic_Documents_values }}</p>
+                {% endfor %}
+              </div>
+            </div>
+            <!-- <p><span>Type:</span>Person to Person</p>
+                      <p><span>Territory:</span>With in Bangladesh</p>
+                      <p><span>Charges:</span>According to the traff table attached to this profile</p>
+                      <p><span>Weight:</span>Up to 200 Grams per letter</p>
+                      <p><span>Condition:</span>Letter must be closed</p> -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="eighten-lr">
+            <h6>Domestic Parcel:</h6>
+            <div class="international d-flex">
+              <div class="international-01">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.Domestic_Parcel_name }}:</p>
+                {% endfor %}
+              </div>
+              <div class="international-02">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.Domestic_Parcel_values }}</p>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="eighten-rl ddd">
+            <h6>International Documents:</h6>
+            <div class="domestic d-flex">
+              <div class="domestic-01">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.International_Documents_name }}:</p>
+                {% endfor %}
+              </div>
+              <div class="domestic-02">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.International_Documents_values }}</p>
+                {% endfor %}>
+              </div>
+            </div>
+            <!-- <p><span>Type:</span>Person to Person</p>
+                      <p><span>Territory:</span>With in Bangladesh</p>
+                      <p><span>Charges:</span>According to the traff table attached to this profile</p>
+                      <p><span>Weight:</span>Up to 200 Grams per letter</p>
+                      <p><span>Condition:</span>Letter must be closed</p> -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="eighten-lr">
+            <h6>International Parcel:</h6>
+            <div class="international d-flex">
+              <div class="international-01">
+                {% for Specification in Specification_Services %}
+                <p>{{ Specification.International_Parcel_name }}:</p>
+                {% endfor %}
+                
+              </div>
+              <div class="international-02">
+                {% for Specification_Services in Specification_Services %}
+                <p>{{ Specification_Services.International_Parcel_values }}</p>
+                {% endfor %}
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------ Nineten Page Start ----------------->
+  <section class="nineten page-bg mt-5" style="background-image: url('/static/assets/images/test.jpg')">
+    <!-- <div class="corporate mt-5"></div> -->
+    <div class="corporate-afive last-page mt-5 pt-4">
+      <h1>AJR GROUP</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="nineten-page pt-3">
+            <h6>Probihited Commodities</h6>
+          </div>
+          <div class="nineten-rl">
+            <p>
+              A.J.R Parcel & Courier Service Ltd. will not accept
+              under any following commodities for transport by
+              courier. terms and condition
+            </p>
+            {% for Probihited_Admin in Probihited_Admin %}
+            <p><i class="fas fa-circle"></i>{{ Probihited_Admin.Probihited_Name }}</p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="nineten-page rcrc  pt-3">
+            <h6>Restricted Commodities</h6>
+          </div>
+          <div class="nineten-lr">
+            <p>
+              A.J.R Parcel & Courier Service Ltd. will not accept
+              under any following commodities for transport by
+              courier. terms and condition
+            </p>
+            {% for Probihited_Admin in Probihited_Admin %}
+            <p><i class="fas fa-circle"></i>{{ Probihited_Admin.Restricted_Name }}</p>
+            {% endfor %}
+            
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="nineten-info">
+            <p>
+              For further information please contact customer service
+              at
+            </p>
+            <h5>A.J.R Parcel & Courier Service Ltd.</h5>
+            {% for Head_Office in Head_Office %}
+            <h6>Hot Line: {{ Head_Office.hot_line }}</h6>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="nineten-page-contact pt-5">
+            <h6>Contact Us</h6>
+          </div>
+          <div class="nineten-rl">
+            {% for Contact_Us in Contact_Us %}
+            <p>
+              <i class="fas fa-circle"></i>{{ Contact_Us.Office_Name }}:
+              {{ Contact_Us.phone_no }}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-md-6">
+          {% for Head_Office in Head_Office %}
+          <div class="nineten-lr text-center pt-5">
+            <img src="{{ Head_Office.site_image.url }}" alt="" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="nineten-page-office head mt-3">
+            <h6>Head Office</h6>
+          </div>
+          <div class="nineten-rll">
+            <h5>A.J.R Parcel & Courier Service Ltd.</h5>
+            {% for Head_Office in Head_Office %}
+            <p>{{ Head_Office.Head_Office_Name }}
+              <span>Mobile: {{ Head_Office.Head_phone_no }}.</span>
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="nineten-page-office trff  mt-3">
+            <h6>Transport Office</h6>
+          </div>
+          <div class="nineten-lrr">
+            <h5>A.J.R Parcel & Courier Service Ltd.</h5>
+            {% for Head_Office in Head_Office %}
+            <p>
+              {{ Head_Office.Transport_Office }}
+              <span>Mobile:  {{ Head_Office.transport_phone_no }}</span>
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="footer">
+      <p>
+        E-mail: ajrtransport123@gmail.com FB: /ajrparceloffical Web:
+        ajrgroupbd.com
+      </p>
+    </div> -->
+  </section>
+  <!------------------ Twenty one Page Start ----------------->
+  {% for Head_Office in Head_Office %}
+  <section class="pt-5">
+    <div class="frist-page">
+      <img src="{{ Head_Office.thanks_image.url }}" alt="" />
+    </div>
+  </section>
+  {% endfor %}
+
+  
+
+{% endblock %}
